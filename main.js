@@ -24,11 +24,11 @@ function print(boyBands) {
 
 //loop through bands array and store in var listHTML
 function printBoyBands( list ) {
-	var listHTML = '<ol>';
+	var listHTML = '<ul>';
 	for ( var i = 0; i < list.length; i += 1 ) {
-		listHTML += '<li>' + list[i] + '</li>';
+		listHTML += '<li id="boyBandList">' + list[i] + '</li>';
 	}
-	listHTML += '</ol>';
+	listHTML += '</ul>';
 	print(listHTML);
 }
 
@@ -44,11 +44,11 @@ function printTwo(boyBands) {
 
 //loop through bands array and store in var listHTML
 function printVeggies( list ) {
-	var listHTML = '<ol>';
+	var listHTML = '<ul>';
 	for ( var i = 0; i < list.length; i += 1 ) {
-		listHTML += '<li>' + list[i] + '</li>';
+		listHTML += '<li id="vegetableList">' + list[i] + '</li>';
 	}
-	listHTML += '</ol>';
+	listHTML += '</ul>';
 	printTwo(listHTML);
 }
 

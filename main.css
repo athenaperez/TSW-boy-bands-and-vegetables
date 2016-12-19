@@ -3,3 +3,40 @@ body {
 	font-family: Frontage, sans-serif;
 	letter-spacing: -.3em;
 }
+
+h1 {
+	margin-top: 3%;
+}
+
+#boy-bands {
+	text-align: left;
+	margin: 5% 2% 2% 5%;
+	line-height: 1.2em;
+}
+
+#vegetables {
+	text-align: left;
+	margin: 3% 2% 2% 5%;
+	line-height: 1.2em;
+}
+
+
+#boyBandList {
+	list-style-image: url(https://media.giphy.com/media/12C4UGk4NLZHLa/giphy.gif);
+
+
+}
+
+
+#vegetableList {
+	list-style-image: url(https://media.giphy.com/media/GgCVScbdsKL3q/giphy.gif);
+}
+
+#flexBox {
+	display: flex;
+	margin: 5% 22% 0 22%;
+	border-top: 3px solid black;
+	justify-content: space-between;
+
+}
+
